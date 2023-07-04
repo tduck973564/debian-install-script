@@ -24,7 +24,7 @@ deb-src http://deb.debian.org/debian bookworm-backports main non-free-firmware n
 sudo apt update
 
 echo "Install flatpak"
-sudo apt install -y flatpak plasma-discover-backend-flatpak
+sudo apt install -y flatpak plasma-discover-backend-flatpak kde-config-flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 sudo apt remove firefox-esr
 flatpak install -y org.mozilla.firefox
