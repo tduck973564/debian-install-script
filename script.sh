@@ -65,10 +65,6 @@ org.inkscape.Inkscape \
 com.github.wwmm.easyeffects \
 org.mozilla.firefox
 
-echo "Make some folders"
-mkdir ~/Repositories
-mkdir ~/Coding
-
 echo "Download icon theme and fonts"
 sudo apt install -y fonts-inter fonts-ibm-plex
 
