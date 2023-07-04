@@ -58,7 +58,6 @@ sudo apt install -y libavcodec-extra \
   gstreamer1.0-vaapi;
 
 flatpak install -y flathub \
-com.github.tchx84.Flatseal \
 org.gimp.GIMP \
 org.kde.kdenlive \
 org.inkscape.Inkscape \
