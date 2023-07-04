@@ -45,12 +45,11 @@ echo "Installation of build-essential"
 sudo apt install build-essential
 
 echo "Installation of apps"
-sudo apt remove -y ibus
-
 sudo apt install -y \
 pavucontrol \
 openssl \
-libdvd-pkg
+libdvd-pkg \
+kde-config-plymouth
 
 sudo apt install -y libavcodec-extra \
   gstreamer1.0-libav              \
