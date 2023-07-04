@@ -70,7 +70,7 @@ mkdir ~/Repositories
 mkdir ~/Coding
 
 echo "Download icon theme and fonts"
-sudo apt install -y fonts-inter fonts-inter-variable fonts-ibm-plex
+sudo apt install -y fonts-inter fonts-ibm-plex
 
 echo "Install AppImageLauncher"
 sudo apt install -y software-properties-common
